@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="sg.edu.nus.fragments.Activity3">
+
+    <!--Static attachment of fragment 1 and 2-->
+    <fragment
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/frag1"
+        android:name="sg.edu.nus.fragments.Activity1Fragment"
+        tools:layout="@layout/fragment_activity1" />
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/frag2"
+        android:name="sg.edu.nus.fragments.Activity2Fragment"
+        tools:layout="@layout/fragment_activity2" />
+
+</LinearLayout>

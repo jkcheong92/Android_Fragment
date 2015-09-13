@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="sg.edu.nus.fragments.Fragment51">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="40sp"
+        android:text="@string/frag51"
+        android:id="@+id/frag51"/>
+
+
+</FrameLayout>

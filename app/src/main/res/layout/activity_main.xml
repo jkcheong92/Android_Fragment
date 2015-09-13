@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn1"
+        android:id="@+id/btn1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick_activity1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2"
+        android:id="@+id/btn2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick_activity2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn3"
+        android:id="@+id/btn3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick_activity3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn4"
+        android:id="@+id/btn4"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick_activity4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn5"
+        android:id="@+id/btn5"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick_activity5"/>
+
+</LinearLayout>
